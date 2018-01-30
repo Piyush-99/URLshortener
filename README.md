@@ -1,4 +1,12 @@
-# URLshortener
+# Angular URLshortener
+
+1. goo.gl like webapp.
+2. Add your original links and click Shorten URL button.
+3  And voila short link generated.
+
+#Under Development
+
+                      ------------------------------------------------------------
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
 
