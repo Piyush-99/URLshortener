@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+
+	url = [];
+  
+  @ViewChild('text') text: ElementRef;
+
+  onAdd() {
+    var x = this.text.nativeElement.value.length * Math.random();
+    x = x - Math.floor(x) - Math.random();
+    this.url.push({
+    	orig: this.text.nativeElement.value,
+    	short: "too.pp/" + x.toString(36).substr(4,7)
+    });
+  }
+
 }
+
