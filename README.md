@@ -1,8 +1,10 @@
 # Angular URLshortener
 
+HTML, CSS, Bootstrap, Angular
+
 1. goo.gl like webapp.
 2. Add your original links and click Shorten URL button.
-3  And voila short link generated.
+3. And voila short link generated.
 
 #Under Development
 
