@@ -8,6 +8,13 @@ HTML, CSS, Bootstrap, Angular
 
 #Under Development
 
+# Screenshots
+![Screenshot](one1.png)
+
+![Screenshot](two1.png)
+
+![Screenshot](three1.png)
+
                       ------------------------------------------------------------
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
